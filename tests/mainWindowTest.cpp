@@ -11,5 +11,5 @@ public:
 TEST_F(MainWindowTest, shouldAddTwoValues)
 {
     auto result = mainWindow.addTwoValues(8, 1);
-    EXPECT_EQ(result, 9);
+    EXPECT_EQ(result, 10);
 }
